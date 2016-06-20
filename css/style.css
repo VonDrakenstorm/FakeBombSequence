@@ -1,6 +1,51 @@
+html{
+  background-color: grey;
+}
+
 #container{
-  font: "Lucida Console";
-  font-weight: bold;
+  width: 75%;
+  font-family: ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   color: #0bfc07;
   background-color: black;
+  margin: 0 auto;
+}
+
+#phase1{
+  display: block;
+}
+
+#progressbar {
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+}
+
+#progressbar > div {
+   background-color: #03cd00;
+   width: 0%; /* Adjust with JavaScript */
+   height: 20px;
+   border-radius: 10px;
+}
+
+#phase2{
+  display: none;
+}
+
+#phase3{
+  display: none;
+}
+
+#phase4{
+  display: none;
+}
+
+#phase5{
+  display: none;
+}
+
+#phase6{
+  display: none;
+}
+
+#phase7{
+  display: none;
 }

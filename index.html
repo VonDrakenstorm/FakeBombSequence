@@ -4,15 +4,34 @@
   <head>
     <title>Processus de mise &agrave; feu</title>
     <link href="css\style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js\jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js\jquery-2.2.3.min.js"></script>
+    <script type="text/javascript">
+      function phase1ProgressBar(){
+        setTimeout(function(){},1000);
+
+        for (var i = 0; i < 60; i++) {
+          document.getElementById('phase1').style.width = (i/60)*100+"%";
+          setTimeout(function(){},1000);
+        }
+
+      }
+
+
+    </script>
   </head>
 
 
   <body>
     <div id="container">
 
-      <div id="phase1">
+      <div id="phase1" onload="phase1ProgressBar()">
         T&eacute;l&eacute;chargement du programme USTL industrie
         <!-- add une barre de téléchargement de 60s -->
+        <div id="progressbar">
+          <div></div>
+        </div>
       </div>
 
       <div id="phase2">
@@ -27,10 +46,10 @@
         <!-- Video de verouillage de la cible -->
       </div>
       <div id="phase5">
-
+        <!-- compte à rebourd 10 second avec bouton annulation -->
       </div>
       <div id="phase6">
-        <!-- compte à rebourd 10 second avec bouton annulation -->
+        <!-- Video de mise a feu -->
       </div>
       <div id="phase7">
         Objectif d&eacute;truit
