@@ -1,51 +1,91 @@
-html{
-  background-color: grey;
+body{
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  background-color: black;
 }
 
-#container{
-  width: 75%;
-  font-family: ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-  color: #0bfc07;
-  background-color: black;
-  margin: 0 auto;
-}
+
 
 #phase1{
   display: block;
+  font: "Lucida Console";
+  font-weight: bold;
+  color: #0bfc07;
+  background-color: black;
 }
 
-#progressbar {
-  border-radius: 13px; /* (height of inner div) / 2 + padding */
-  padding: 3px;
-}
-
-#progressbar > div {
-   background-color: #03cd00;
-   width: 0%; /* Adjust with JavaScript */
-   height: 20px;
-   border-radius: 10px;
-}
 
 #phase2{
   display: none;
+  font: "Lucida Console";
+  font-weight: bold;
+  font-size: xx-large;
+  color: #0bfc07;
+  background-color: black;
 }
+
 
 #phase3{
   display: none;
+  font: "Lucida Console";
+  font-weight: bold;
+  font-size: xx-large;
+  color: #0bfc07;
+  background-color: black;
+  background-size : [];
 }
+
+
 
 #phase4{
   display: none;
+  font: "Lucida Console";
+  font-weight: bold;
+  font-size: xx-large;
+  color: #0bfc07;
+  background-color: black;
 }
+
+
 
 #phase5{
   display: none;
+  font: "Lucida Console";
+  font-weight: bold;
+  font-size: xx-large;
+  color: #0bfc07;
+  background-color: black;
 }
+
+
 
 #phase6{
   display: none;
+  font: "Lucida Console";
+  font-weight: bold;
+  font-size: xx-large;
+  color:red;
+  background-color: black;
 }
+
+
 
 #phase7{
   display: none;
+  font: "Lucida Console";
+  font-weight: bold;
+  font-size: xx-large;
+  color: #0bfc07;
+  background-color: black;
+}
+
+
+#phase8{
+  display: none;
+  font: "Lucida Console";
+  font-weight: bold;
+  font-size: xx-large;
+  color: #0bfc07;
+  background-color: black;
 }

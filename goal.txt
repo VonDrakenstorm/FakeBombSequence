@@ -1,4 +1,6 @@
-Pouvez vous me faire un programme en auto exe sur clef USB ?
+﻿Pouvez vous me faire un programme en auto exe sur clef USB ?
+
+
 
 Avec :
 
@@ -7,21 +9,35 @@ phase 1 :
 Un message qui dit :
 Téléchargement du programme USTL industrie
 ( Alexandre Hide vous fournira le logo )
+
 Avec une barre de téléchargement de 60s
+
+
+
 
 phase 2
 
 Message :
 Ordre d activation de mise a feu
 
-Un code qui apparait 15s et disparait
+
+Un code de 8 chiffres qui apparait 15s et disparait
+
 Puis Qu il faut retaper
+
 
 3 essais possible avec changement de code a chaque essais !
 
+
 Si echec retour a la barre de chargement phase 1
 
+
 Si code bon on passe a la phase 3
+
+
+
+
+
 
 Phase 3
 
@@ -29,32 +45,39 @@ Activation de la mise a feu
 
 Entre coordonnée GPS
 
-( La il faut entre les coordonne qui on était établis des le départ et donner a un joueur il entre le code et ça active la phase 4
+
+( La il faut entre les coordonne qui on était établis des le départ et donner a un joueur il entre le code 
+et ça active la phase 4
+Cordonnées GPS : 44.06322 7.13090
+
+
+
+
 
 Phase 4
 
 Une video de localisation satellite
+
 Avec verrouillage de la cible
 
-Phase 5
-Compte a rebours de 10s
+
+
+
+
 
 Avec possibilités d annulation
 
+
 Touche Arbord
 
-Phase 6
+ pendant 71 secondes
 
-Video missile qui part et explosion du site
 
-Phase 7
 
-L écran reste bloquer sur
 
-Objectif détruit
 
-Merci
 
-Bien sur si d autre personne on des capacités a réaliser ce projet ou un ami qui veux aider veuillez contacter l une des 3 personnes nommer en haut de ce message
 
-Merci a tous pour votre participation
+
+
+

@@ -1,59 +1,59 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+<head>
+  <title>Processus de mise &agrave; feu</title>
+  <link href="css\style.css" rel="stylesheet">
+  <script type="text/javascript" src="JS/functions.js"></script>
+  <script type="text/javascript" language="javascript">
+  </script>
+</head>
 
-<html>
-  <head>
-    <title>Processus de mise &agrave; feu</title>
-    <link href="css\style.css" rel="stylesheet">
+<body onload="transitionPhase1()" onkeypress="validatePWD(event)">
+  <div id="container">
 
-    <script type="text/javascript" src="js\jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js\jquery-2.2.3.min.js"></script>
-    <script type="text/javascript">
-      function phase1ProgressBar(){
-        setTimeout(function(){},1000);
-
-        for (var i = 0; i < 60; i++) {
-          document.getElementById('phase1').style.width = (i/60)*100+"%";
-          setTimeout(function(){},1000);
-        }
-
-      }
-
-
-    </script>
-  </head>
-
-
-  <body>
-    <div id="container">
-
-      <div id="phase1" onload="phase1ProgressBar()">
-        T&eacute;l&eacute;chargement du programme USTL industrie
+    <div id="phase1">
+      <video id="intro" width="800" height="600">
+        <source src="video\intro.mp4">
+        </video>
         <!-- add une barre de téléchargement de 60s -->
-        <div id="progressbar">
-          <div></div>
-        </div>
       </div>
 
       <div id="phase2">
-        Ordre d\'activation de mise &agrave; feu
+
+        <br><br>
+        Ordre d'activation de mise &agrave; feu : <div id="PWD"></div>
+
         <!-- Code pendant 15s puis disparait pour être tappé -->
       </div>
       <div id="phase3">
         Activation de la mise &agrave; feu
-        <!-- coordonnées à rentrer -->
+        <input type="text" id="userPWDInput" />
       </div>
+
       <div id="phase4">
+        <br><br>
+        Entr&eacute;e code GPS
+        <input type="text" length="15" id="GPS" />
+      </div>
+
+      <div id="phase5">
+          <video id="finish" width="800" height="600" play()>
+            <source src="video\finish.mp4">
+            </video>
         <!-- Video de verouillage de la cible -->
       </div>
-      <div id="phase5">
+
+      <div id="phase6">
+        POUR ANNULER LA MISE A FEU APPUYER SUR ESPACE<br/>
+        <!-- <input type="button" id="stopButton" value="STOP"/> -->
+      </div>
+
+      <div id="phase7">
         <!-- compte à rebourd 10 second avec bouton annulation -->
       </div>
-      <div id="phase6">
-        <!-- Video de mise a feu -->
-      </div>
-      <div id="phase7">
+
+      <div id="phase8">
         Objectif d&eacute;truit
       </div>
     </div>
   </body>
-</html>
+  </html>
